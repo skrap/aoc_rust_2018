@@ -10,7 +10,7 @@ fn main() {
             if p1 == b'\n' {
                 continue;
             }
-            if let Some(&p0) = next.last() {
+            if let Some(&p0) = next[..].last() {
                 if p0^p1 == 0x20 {
                     // skip both
                     next.pop().unwrap(); // it was there above, right?
