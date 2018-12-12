@@ -11,7 +11,6 @@ fn main() {
     for line in input.lines() {
         let capts = re.captures(line).unwrap();
         let vals : Vec<_> = (1..6).map(|i| capts.get(i).unwrap().as_str().parse::<u32>().unwrap()).collect();
-        let id = vals[0];
         let x_start = vals[1] as usize;
         let y_start = vals[2] as usize;
         let width = vals[3] as usize;
