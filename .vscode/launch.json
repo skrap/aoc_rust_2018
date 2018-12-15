@@ -11,7 +11,7 @@
             "cargo": {
                 "args": [
                     "build",
-                    "--bin", "11a",
+                    "--bin", "14b",
                 ]
             },
             "program": "${cargo:program}",

@@ -1,6 +1,6 @@
 fn main() {
     let input = include_bytes!("5_input");
-    let mut poly : Vec<u8> = input[..].into();
+    let poly : Vec<u8> = input[..].into();
 
     let mut next : Vec<u8> = Vec::with_capacity(poly.len());
     for p1 in poly {

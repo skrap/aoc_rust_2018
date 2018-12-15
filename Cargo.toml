@@ -6,3 +6,4 @@ authors = ["skrap <skrap@mac.com>"]
 [dependencies]
 regex = "1"
 linked-list = "*"
+slice-deque = "*"
